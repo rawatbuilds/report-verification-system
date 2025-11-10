@@ -1,0 +1,418 @@
+{
+  "isValid": false,
+  "summary": {
+    "totalColumns": 27,
+    "matchingColumns": 1,
+    "missingColumns": 26,
+    "extraColumns": 52,
+    "sequenceErrors": 1
+  },
+  "errors": [
+    {
+      "type": "missing",
+      "message": "Missing column: 'Lead ID'",
+      "expected": "Lead ID"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Lead Name'",
+      "expected": "Lead Name"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Lead Month'",
+      "expected": "Lead Month"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Lead Status'",
+      "expected": "Lead Status"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Is submitted to OMS'",
+      "expected": "Is submitted to OMS"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Executed Time'",
+      "expected": "Executed Time"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'BU'",
+      "expected": "BU"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Demand Spoc'",
+      "expected": "Demand Spoc"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Seller'",
+      "expected": "Seller"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'GSTIN'",
+      "expected": "GSTIN"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Line Item ID'",
+      "expected": "Line Item ID"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Line Item Name'",
+      "expected": "Line Item Name"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Event'",
+      "expected": "Event"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Page'",
+      "expected": "Page"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Property'",
+      "expected": "Property"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Start Date'",
+      "expected": "Start Date"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'End Date'",
+      "expected": "End Date"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Demand Date'",
+      "expected": "Demand Date"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Pricing Type'",
+      "expected": "Pricing Type"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Quantity'",
+      "expected": "Quantity"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Booked Impression'",
+      "expected": "Booked Impression"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Impression booked for the Demand Date'",
+      "expected": "Impression booked for the Demand Date"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Original Rate for the Demand Date'",
+      "expected": "Original Rate for the Demand Date"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Negotiated Rate'",
+      "expected": "Negotiated Rate"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Budget'",
+      "expected": "Budget"
+    },
+    {
+      "type": "missing",
+      "message": "Missing column: 'Notes'",
+      "expected": "Notes"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Deal Type'",
+      "actual": "Deal Type"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Platform'",
+      "actual": "Platform"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Lead Id'",
+      "actual": "Lead Id"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Sales LineItem Id'",
+      "actual": "Sales LineItem Id"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Advertiser'",
+      "actual": "Advertiser"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Advertiser Vertical'",
+      "actual": "Advertiser Vertical"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Advertiser Category'",
+      "actual": "Advertiser Category"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Agency'",
+      "actual": "Agency"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Master Agency'",
+      "actual": "Master Agency"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Ad Trafficker'",
+      "actual": "Ad Trafficker"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Ad Server'",
+      "actual": "Ad Server"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Sales Person'",
+      "actual": "Sales Person"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Regional Head'",
+      "actual": "Regional Head"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Team Head'",
+      "actual": "Team Head"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Sales Region'",
+      "actual": "Sales Region"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Campaign Name'",
+      "actual": "Campaign Name"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Campaign Id'",
+      "actual": "Campaign Id"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Goal'",
+      "actual": "Goal"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Goal Id'",
+      "actual": "Goal Id"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'GAM Line item ID'",
+      "actual": "GAM Line item ID"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Goal Start Date'",
+      "actual": "Goal Start Date"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Goal End Date'",
+      "actual": "Goal End Date"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Rate'",
+      "actual": "Rate"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Rate Card Journey'",
+      "actual": "Rate Card Journey"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'RO Numbers'",
+      "actual": "RO Numbers"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'I/O Number'",
+      "actual": "I/O Number"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Total RO Value'",
+      "actual": "Total RO Value"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Total Days'",
+      "actual": "Total Days"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Delivered Days'",
+      "actual": "Delivered Days"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Revenue Type'",
+      "actual": "Revenue Type"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Booked Metric'",
+      "actual": "Booked Metric"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Billable Metric'",
+      "actual": "Billable Metric"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Booked Quantity'",
+      "actual": "Booked Quantity"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Ad Duration'",
+      "actual": "Ad Duration"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Gross Sales Booked Revenue'",
+      "actual": "Gross Sales Booked Revenue"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Net Sales Booked Revenue'",
+      "actual": "Net Sales Booked Revenue"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'In System Booked Revenue'",
+      "actual": "In System Booked Revenue"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Delivered Impressions'",
+      "actual": "Delivered Impressions"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Targeting'",
+      "actual": "Targeting"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Viewed 100%'",
+      "actual": "Viewed 100%"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Skip Shown'",
+      "actual": "Skip Shown"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Clicks'",
+      "actual": "Clicks"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'CTR'",
+      "actual": "CTR"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'VTR'",
+      "actual": "VTR"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Gross Delivered Revenue'",
+      "actual": "Gross Delivered Revenue"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Net Delivered Revenue'",
+      "actual": "Net Delivered Revenue"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'eCPM'",
+      "actual": "eCPM"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Risk %'",
+      "actual": "Risk %"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Risk Amount'",
+      "actual": "Risk Amount"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Discount Type'",
+      "actual": "Discount Type"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Month'",
+      "actual": "Month"
+    },
+    {
+      "type": "extra",
+      "message": "Extra column: 'Conversions'",
+      "actual": "Conversions"
+    },
+    {
+      "type": "case",
+      "message": "Case difference: expected 'Lead ID', actual 'Lead Id'",
+      "expected": "Lead ID",
+      "actual": "Lead Id"
+    },
+    {
+      "type": "sequence",
+      "message": "Sequence mismatch for 'Brand': expected 9, actual 10",
+      "expected": "Brand",
+      "actual": "Brand",
+      "position": 9,
+      "actualPosition": 10
+    }
+  ],
+  "referenceFile": "cmp_ref_Pipeline_Report_ipeline_Report_e2c0ca17d51c4643828f2db47482cd78.xlsx",
+  "currentFile": "cmp_cur_Campaign_Tracker_ampaign_Tracker_Report_646910c4d25e4be180f9fca0b6911bc0.xlsx"
+}
